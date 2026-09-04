@@ -33,7 +33,14 @@
 - Why selected: defines session recording/replay concept for CSI time series, detections, poses, timestamps and integrity metadata.
 - Status note: ADR is marked Proposed; use as design input, not as proof of production completion.
 
-### 6. Dholera source package
+### 6. Espressif esp-csi
+- Repository: `espressif/esp-csi`
+- Role: official ESP32 CSI hardware/capture reference and benchmark source.
+- Why selected: documents router-based CSI, device-to-device CSI, dedicated broadcast-source capture, external-antenna guidance, and example human presence/activity sensing flows.
+- License: Apache-2.0.
+- Adoption status: evaluation source only; not yet a SitePace runtime dependency.
+
+### 7. Dholera source package
 - Role: geometry, site constraints, floor plans, network conditions, construction sequence and hygiene-monitoring problem definition.
 - Source: existing L&T Dholera Drive package supplied in this chat.
 - Use: Dholera remains the first evaluation environment; source files are not copied into Git.
